@@ -46,7 +46,7 @@ public class Person
     //vi att ToString() skriver ut det vi returnerar istället för defaultvärde (klass osv.)
     public override string ToString()
     {
-        return $"Ögonfärg: {EyeColor} \nHårlängd: {hair.HairLength} \n" +
+        return $"Ögonfärg: {EyeColor} \nHårlängd: {hair.HairLength}cm \n" +
                 $"Hårfärg: {hair.HairColor} \nKön: {this.gender} \nFödelsedag: {Birthday}\n";
     }
 
